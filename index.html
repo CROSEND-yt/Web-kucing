@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ff6f9f">
+  <meta name="description" content="PawPedia — dunia kucing yang penuh warna, cerita, dan kejutan.">
+  <title>PawPedia — A little world of cats</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="falling-layer" id="fallingLayer"></div>
+  <div class="intro-screen" id="introScreen" aria-hidden="true">
+    <div class="intro-orbit orbit-a"></div><div class="intro-orbit orbit-b"></div>
+    <div class="intro-center"><span class="intro-star">✳</span><p>WELCOME TO</p><h1>PawPedia</h1><span class="intro-line"></span><small>a little world of cats</small></div>
+  </div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="floating-spark spark-one">✦</div><div class="floating-spark spark-two">✧</div>
+  <header class="topbar" id="home">
+    <a class="brand" href="#home"><span class="brand-icon">P</span><span>Paw<span class="brand-pink">Pedia</span><small>THE CAT CLUB</small></span></a>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Buka menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#discover">Discover</a><a href="#world">Cat world</a><a href="#gallery">Gallery</a><a href="#care">Cat care</a>
+    </nav>
+    <div class="top-actions">
+      <button class="font-button" id="fontButton" title="Ganti font">Aa <span>FONT</span></button>
+      <a class="nav-pill" href="#gallery">Let's explore <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="discover">
+      <div class="hero-left reveal">
+        <div class="mini-label"><span class="label-dot"></span> YOUR DAILY DOSE OF CAT LOVE <span class="label-spark">✦</span></div>
+        <h1>Life is better<br>with a little <em>meow.</em></h1>
+        <p class="hero-desc">Masuk ke dunia kecil yang penuh cerita, tingkah menggemaskan, dan fakta seru tentang teman berbulu kita.</p>
+        <div class="hero-buttons"><a class="button button-dark" href="#world">Explore the world <span>↗</span></a><button class="button button-soft" id="surpriseButton">Surprise me <span>✳</span></button></div>
+        <div class="hero-social-proof"><div class="tiny-avatars"><img src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?w=80&h=80&fit=crop" alt=""><img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=80&h=80&fit=crop" alt=""><img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?w=80&h=80&fit=crop" alt=""></div><span><b>Made for cat people</b><small>Curious minds, happy paws.</small></span></div>
+      </div>
+      <div class="hero-art reveal reveal-right">
+        <div class="hero-blob"></div>
+        <div class="hero-photo-frame"><img src="assets/hero-cat.jpg" alt="Kucing"></div>
+        <div class="sticker sticker-top"><span>✿</span><b>SO<br>CUTE!</b></div>
+        <div class="sticker sticker-bottom"><small>THE</small><b>CAT<br>LOVER</b><span>CLUB</span></div>
+        <div class="round-note">purr<br>fect!</div>
+        <div class="tiny-doodle doodle-a">✳</div><div class="tiny-doodle doodle-b">♡</div>
+      </div>
+      <div class="hero-bottom-note"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 / 06</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Cat club ticker"><div class="ticker-track"><span>MORE PURR, LESS WORRY</span><b>✳</b><span>CATS ARE LITTLE MAGIC</span><b>✳</b><span>STAY SOFT, STAY CURIOUS</span><b>✳</b><span>MORE PURR, LESS WORRY</span><b>✳</b><span>CATS ARE LITTLE MAGIC</span><b>✳</b></div></section>
+
+    <section class="intro-section section-wrap" id="world">
+      <div class="section-heading reveal"><div><span class="eyebrow">01 — GET TO KNOW THEM</span><h2>A whole universe<br>in a tiny <em>paw.</em></h2></div><p>Kucing punya sejarah panjang, kebiasaan unik, dan cara sendiri untuk menunjukkan rasa nyaman. Yuk, kenali mereka lebih dekat!</p></div>
+      <div class="feature-grid">
+        <article class="feature-card feature-pink reveal"><span class="card-number">01 / HISTORY</span><div class="feature-image"><img src="assets/breed-siamese.jpg" alt="Kucing Siamese"></div><div class="feature-copy"><span class="tag tag-pink">A little history</span><h3>Dari teman pemburu<br>jadi teman rumah.</h3><p>Hubungan manusia dan kucing telah terjalin selama ribuan tahun.</p><a href="#history" class="text-arrow">Read their story <span>↗</span></a></div><span class="feature-deco">✿</span></article>
+        <article class="feature-card feature-yellow reveal reveal-delay"><span class="card-number">02 / PERSONALITY</span><div class="feature-image"><img src="assets/Cute cat.jpg" alt="Kucing Siamese"></div><div class="feature-copy"><span class="tag tag-yellow">Cat language</span><h3>Diam-diam punya<br>banyak cerita.</h3><p>Dari ekor tegak sampai kedipan pelan, setiap gerak bisa punya arti.</p><a href="#behavior" class="text-arrow">Decode the meow <span>↗</span></a></div><span class="feature-deco">♡</span></article>
+        <article class="feature-card feature-lilac reveal reveal-delay-2"><span class="card-number">03 / LIFESTYLE</span><div class="feature-image"><img src="assets/breed-persian.jpg" alt="Kucing Siamese"></div><div class="feature-copy"><span class="tag tag-lilac">Daily life</span><h3>Nap, snack, play,<br>repeat again.</h3><p>Rutinitas yang nyaman membantu kucing merasa aman dan sehat.</p><a href="#care" class="text-arrow">Explore cat care <span>↗</span></a></div><span class="feature-deco">✧</span></article>
+      </div>
+    </section>
+
+    <section class="history-section section-wrap" id="history">
+      <div class="history-photo reveal"><img src="assets/breed-mainecoon.jpg" alt="Kucing"><div class="history-stamp">A STORY<br>THAT'S<br>THOUSANDS<br>OF YEARS OLD</div></div>
+      <div class="history-copy reveal reveal-right"><span class="eyebrow">02 — A LITTLE HISTORY</span><h2>From wild<br>to <em>wonderful.</em></h2><p>Kucing domestik berasal dari nenek moyang kucing liar yang hidup di wilayah Timur Dekat. Saat manusia mulai bercocok tanam, kucing tertarik mendekati permukiman karena banyaknya hewan pengerat.</p><div class="timeline"><div><b>± 10.000 tahun lalu</b><span>Kucing liar mulai hidup dekat permukiman manusia.</span></div><div><b>Mesir Kuno</b><span>Kucing dihargai dan hadir dalam kehidupan sehari-hari.</span></div><div><b>Masa kini</b><span>Kucing menjadi sahabat keluarga di berbagai belahan dunia.</span></div></div></div>
+    </section>
+
+    <section class="behavior-section" id="behavior"><div class="section-wrap behavior-inner">
+      <div class="section-heading reveal"><div><span class="eyebrow">03 — THE SECRET LANGUAGE</span><h2>What is your cat<br>trying to <em>say?</em></h2></div><p>Tekan kartu untuk membaca arti beberapa bahasa tubuh kucing. Ingat, lihat juga situasi dan gerakan tubuh lainnya.</p></div>
+      <div class="behavior-layout"><div class="behavior-tabs reveal">
+        <button class="behavior-tab active" data-behavior="tail"><span class="tab-icon">↟</span><span><b>Ekor tegak</b><small>Friendly hello</small></span><span class="tab-arrow">↗</span></button>
+        <button class="behavior-tab" data-behavior="purr"><span class="tab-icon">〰</span><span><b>Mendengkur</b><small>Comfort or calm</small></span><span class="tab-arrow">↗</span></button>
+        <button class="behavior-tab" data-behavior="knead"><span class="tab-icon">✳</span><span><b>Menguleni</b><small>Kitten memories</small></span><span class="tab-arrow">↗</span></button>
+        <button class="behavior-tab" data-behavior="blink"><span class="tab-icon">◡</span><span><b>Kedip perlahan</b><small>Trust & comfort</small></span><span class="tab-arrow">↗</span></button>
+      </div><div class="behavior-result reveal reveal-right"><div class="result-top"><span>CAT TRANSLATOR</span><span class="result-live">● LIVE NOTE</span></div><div class="result-symbol" id="behaviorSymbol">↟</div><h3 id="behaviorTitle">Ekor tegak</h3><p id="behaviorText">Ekor yang tegak dengan postur tubuh rileks sering menjadi tanda sapaan ramah atau rasa nyaman.</p><div class="result-foot"><span>PAW LANGUAGE / 001</span><span>✦</span></div></div></div>
+    </div></section>
+
+    <section class="gallery-section section-wrap" id="gallery">
+      <div class="section-heading reveal"><div><span class="eyebrow">04 — THE CUTENESS ARCHIVE</span><h2>Little faces,<br>big <em>personality.</em></h2></div><p>Galeri kecil penuh ekspresi. Kamu juga bisa menambahkan foto kucing sendiri langsung dari perangkat.</p></div>
+      <div class="gallery-grid" id="galleryGrid">
+        <figure class="gallery-item gallery-large reveal"><img src="assets/kucing-hidung.jpg" alt="Kucing hidung"><figcaption><b>01 / THE SUNSHINE</b><span>Little ray of sunshine</span></figcaption></figure>
+        <figure class="gallery-item gallery-tall reveal reveal-delay"><img src="assets/kucing salim.jpg" alt="Kucing salim"><figcaption><b>02 / NAP QUEEN</b><span>Professional napper</span></figcaption></figure>
+        <figure class="gallery-item reveal reveal-delay-2"><img src="assets/kucing-jam.jpg" alt="Kucing jam"><figcaption><b>03 / CLOUD NINE</b><span>Soft little cloud</span></figcaption></figure>
+        <figure class="gallery-item reveal"><img src="assets/kucing-mewing.jpg" alt="Kucing mewing"><figcaption><b>04 / MAIN CHARACTER</b><span>Born to be adored</span></figcaption></figure>
+        <figure class="gallery-item gallery-wide reveal reveal-delay"><img src="assets/kucing-otot.jpg" alt="Kucing otot"><figcaption><b>05 / LITTLE EXPLORER</b><span>Curious by nature</span></figcaption></figure>
+      </div>
+      <div class="upload-panel reveal"><div class="upload-icon">＋</div><div><b>Add your own cat pictures</b><p>Pilih beberapa foto dari perangkatmu. Foto akan tampil di galeri ini selama halaman masih terbuka.</p></div><label class="button button-dark upload-button" for="photoUpload">Add photos <span>＋</span></label><input id="photoUpload" type="file" accept="image/*" multiple hidden></div>
+    </section>
+
+    <section class="facts-section"><div class="section-wrap facts-inner"><div class="facts-heading reveal"><span class="eyebrow">05 — DID YOU KNOW?</span><h2>Small facts.<br><em>Big wow.</em></h2><p>Beberapa fakta menarik yang bikin dunia kucing makin seru.</p><button class="button button-light" id="factButton">Another fun fact <span>↻</span></button></div><div class="fact-card reveal reveal-right"><div class="fact-card-top"><span>THE CAT FACT FILE</span><span>NO. <b id="factNumber">01</b></span></div><div class="fact-big" id="factText">Kucing memiliki indra pendengaran yang sangat peka.</div><div class="fact-card-bottom"><span>KEEP YOUR CURIOSITY ALIVE</span><span>✳</span></div><div class="fact-star">✳</div></div></div></section>
+
+    <section class="care-section section-wrap" id="care"><div class="section-heading reveal"><div><span class="eyebrow">06 — THE LOVE CHECKLIST</span><h2>Care looks good<br>on <em>everybody.</em></h2></div><p>Hal sederhana yang bisa membantu kucing merasa nyaman. Centang satu per satu untuk melihat progres checklist.</p></div><div class="care-layout"><div class="care-photo reveal"><img src="assets/kucing-suki.jpg" alt="Kucing suki"><span class="care-photo-note">A HAPPY CAT<br>IS A LOVED CAT</span></div><div class="checklist reveal reveal-right"><div class="checklist-top"><b>YOUR CAT CARE LIST</b><span id="careCount">0 / 5 DONE</span></div><div class="care-progress"><span id="careProgress"></span></div><label class="care-item"><input type="checkbox"><span class="custom-check"></span><span><b>Air bersih selalu tersedia</b><small>Ganti air minum secara rutin.</small></span></label><label class="care-item"><input type="checkbox"><span class="custom-check"></span><span><b>Makanan sesuai kebutuhan</b><small>Pilih makanan sesuai usia dan kondisi kucing.</small></span></label><label class="care-item"><input type="checkbox"><span class="custom-check"></span><span><b>Litter box tetap bersih</b><small>Bersihkan secara teratur.</small></span></label><label class="care-item"><input type="checkbox"><span class="custom-check"></span><span><b>Waktu bermain setiap hari</b><small>Berikan stimulasi dan interaksi.</small></span></label><label class="care-item"><input type="checkbox"><span class="custom-check"></span><span><b>Pemeriksaan kesehatan</b><small>Konsultasikan kebutuhan vaksin dan pemeriksaan ke dokter hewan.</small></span></label><div class="checklist-footer"><span>GOOD CARE, HAPPY PAWS.</span><span>♡</span></div></div></div></section>
+
+    <section class="final-banner"><div class="banner-doodle">✳</div><span class="eyebrow">YOU'VE REACHED THE COZY CORNER</span><h2>Stay curious.<br>Stay <em>paw-sitive.</em></h2><p>Terima kasih sudah mampir ke dunia kecil PawPedia.</p><a href="#home" class="button button-dark">Back to the top <span>↑</span></a><div class="banner-cat">P</div></section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-icon">P</span><span>Paw<span class="brand-pink">Pedia</span><small>THE CAT CLUB</small></span></a><span>MADE WITH A LITTLE EXTRA LOVE · 2026</span><a href="#home">BACK UP ↑</a></footer>
+
+  <div class="font-popover" id="fontPopover" aria-hidden="true"><div class="font-popover-head"><b>Choose your type</b><button id="closeFont" aria-label="Tutup">×</button></div><p>Preview font akan berubah langsung.</p><button data-font="default" class="font-choice selected"><span>DM Sans</span><small>Clean & readable</small></button><button data-font="matcha-world" class="font-choice"><span>Matcha World</span><small>Playful headline</small></button><button data-font="matcha-style" class="font-choice"><span>Matcha Style</span><small>Soft & rounded</small></button><button data-font="green-matcha" class="font-choice"><span>Green Matcha</span><small>Sweet display</small></button><button data-font="avolisse" class="font-choice"><span>Avolisse</span><small>Retro accent</small></button><button data-font="super-waffles" class="font-choice"><span>Super Waffles</span><small>Bold & bubbly</small></button></div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
